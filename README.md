@@ -8,6 +8,8 @@
 
 # Demo en línea
 
+![](https://cdn-images-1.medium.com/max/1600/1*IU7g7I2eETYpq_YghExZoA.gif)
+
 Puedes ver una versión desplegada del proyecto en el siguiente enlace:
 
 - [Demo](https://nextrav4-nextjs15.vercel.app/)
