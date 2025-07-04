@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Next.js v15 documentation, made with Nextra & MDX',
   keywords: ['Nextra', 'Next.js', 'React', 'JavaScript', 'MDX', 'Markdown'],
   generator: 'Next.js',
-  applicationName: 'nextjs-v15-doc',
+  applicationName: 'nextra-nextjs15',
   appleWebApp: {
     title: 'Next.js v15 Documentation',
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const navbar = (
   <Navbar
     logo={<h1>Next.js +15</h1>}
-    projectLink="https://github.com/mauriciogc/nextjs-v15-doc"
+    projectLink="https://github.com/mauriciogc/nextra-nextjs15"
   />
 );
 
@@ -42,7 +42,7 @@ const RootLayout: FC<{ children: ReactNode }> = async ({ children }) => {
           navbar={navbar}
           footer={footer}
           pageMap={pageMap}
-          docsRepositoryBase="https://github.com/mauriciogc/nextjs-v15-doc/tree/main"
+          docsRepositoryBase="https://github.com/mauriciogc/nextra-nextjs15/tree/main"
           editLink="Edit this page on GitHub"
           sidebar={{
             defaultMenuCollapseLevel: 1,

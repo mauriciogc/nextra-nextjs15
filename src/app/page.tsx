@@ -29,7 +29,7 @@ export default function Home() {
           Get Started
         </Link>
         <a
-          href="https://github.com/mauriciogc/nextjs-v15-doc"
+          href="https://github.com/mauriciogc/nextra-nextjs15"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 text-sm font-semibold rounded-lg border border-white/30 hover:bg-white/10 transition-colors"
