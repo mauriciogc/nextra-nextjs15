@@ -1,0 +1,22 @@
+---
+title: 'Routing with App Router'
+description: 'Understand how dynamic routing works with Next.js App Router and MDX.'
+---
+
+# Routing with App Router
+
+Next.js App Router introduces a new file-based routing system using nested layouts and server components.
+
+In this setup:
+
+- Dynamic routes like `[[...mdxPath]]` allow Nextra to automatically map any `.mdx` file into a live route.
+- `generateStaticParamsFor()` and `importPage()` are used to render these routes at build time.
+- The folder `/src/content/` becomes the source of your content tree.
+
+```tsx
+export const generateStaticParams = generateStaticParamsFor('mdxPath');
+```
+
+> [!TIP]
+>
+> You don't need to define every route manually — it's fully automated.

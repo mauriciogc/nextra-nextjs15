@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[![Next.js](https://img.shields.io/badge/Next.js-15%2B-blue?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-06b6d4?logo=tailwindcss)](https://tailwindcss.com/)
+[![Nextra](https://img.shields.io/badge/Nextra-4.x-06b6d4?logo=nextra)](https://nextra.site/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Getting Started
+---
 
-First, run the development server:
+# Demo en línea
+
+Puedes ver una versión desplegada del proyecto en el siguiente enlace:
+
+- [Demo](https://nextrav4-nextjs15.vercel.app/)
+
+Y si deseas consultar esta misma guía paso a paso como parte del sitio, está incluida directamente dentro de la documentación:
+
+- [Guía completa](https://github.com/mauriciogc/nextra-nextjs15/blob/main/GUIDE.md)
+
+# Cómo descargar e instalar el proyecto
+
+Si quieres utilizar esta base de documentación en tu propio entorno o como punto de partida para tu proyecto, puedes seguir estos pasos:
+
+### Clona el repositorio
+
+```bash
+git clone https://github.com/mauriciogc/nextjs-v15-doc.git
+cd nextjs-v15-doc
+```
+
+### Instala las dependencias
+
+Asegúrate de tener Node.js 18 o superior instalado. Luego ejecuta:
+
+```bash
+npm install
+```
+
+### Inicia el servidor en modo desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esto iniciará el servidor local en `http://localhost:3000`. Ya podrás navegar la documentación, probar el layout, ver el input de búsqueda (en modo limitado) y empezar a modificar el contenido en `/src/content`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### (Opcional) Generar el índice de búsqueda para producción
 
-## Learn More
+Para compilar el sitio y generar el índice de búsqueda completo con Pagefind:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esto ejecuta el postbuild definido en el package.json, que genera el índice de búsqueda en `public/_pagefind`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

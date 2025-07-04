@@ -1,0 +1,30 @@
+---
+title: 'Deployment Guide'
+description: 'How to deploy your Nextra + Next.js site to Vercel or other platforms.'
+---
+
+# Deployment Guide
+
+This site can be deployed easily on [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), or any static host.
+
+## Vercel
+
+1. Push your code to GitHub.
+2. Go to [vercel.com](https://vercel.com) and import your repository.
+3. Set the build command:
+
+```bash
+npm run build
+```
+
+And the output directory:
+
+```bash
+.next
+```
+
+4. Done!!
+
+## Netlify
+
+Use a custom output adapter or export to static HTML using `next export`. (Not ideal for Nextra, which prefers SSR.)
