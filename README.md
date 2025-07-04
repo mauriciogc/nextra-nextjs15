@@ -8,7 +8,7 @@
 
 # Demo en línea
 
-![](https://cdn-images-1.medium.com/max/1600/1*IU7g7I2eETYpq_YghExZoA.gif)
+![](https://cdn-images-1.medium.com/max/1600/1*-LHJYZqDd7ausHFgGq20uw.gif)
 
 Puedes ver una versión desplegada del proyecto en el siguiente enlace:
 
